@@ -2,6 +2,7 @@ write a function which returns boolean true of false
 the function gets a formula,
 i.e.:
 "A,B,C@D,E@F"
+(it means: you need to get only a or b or c AND d or e AND f. and must get one of them)
 the function gets a string
 i.e.:
 "A,D,F"

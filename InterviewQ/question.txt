@@ -1,21 +1,22 @@
-write a function which returns boolean true of false
-the function gets a formula,
-i.e.:
+write a function whichgets two inputs: formula(string) + sentence(string) and returns boolean true of false
+Example for a formula:
 "A,B,C@D,E@F"
 (it means: you need to get only a or b or c AND d or e AND f. and must get one of them)
-the function gets a string
-i.e.:
+
+Example for sentence:
 "A,D,F"
-returns true for:
+
+Example for sentence inputs which returns True:
 A,D,F
 B,D,F
 F,D,A
 F,E,B
-false:
+
+Example for sentence inputs which returns False:
 A,B,D,F
 A,D
 D,C,F,A
 
-hint: use dictionary
+Hint: use dictionary
 
 
